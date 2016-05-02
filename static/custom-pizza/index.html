@@ -1,13 +1,55 @@
-TEST
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Pizza Paradise</title>
-    <link rel="stylesheet" href="css/pizza.css">
-    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-  </head>
+<html lang="en">
+<head>
+<title>Pizza Paradise</title>
 
-  <body>
+
+  <!-- js -->
+<script type="text/javascript">
+  if (document.documentElement) document.documentElement.className = 'js';
+  var FM = {
+    scriptDir: '/assets/scripts/',
+    imgDir:    '/assets/styles/images/'
+  };
+</script>
+<!--[if lt IE 8]><script type="text/javascript">document.createElement('abbr');</script><![endif]-->
+<!--[if IE 6]>
+<script src="/assets/scripts/DD_belatedPNG.js"></script>
+<script>
+  DD_belatedPNG.fix('.content, a.btn, a.btn span, .badge');
+</script>
+<![endif]-->
+<!-- css -->
+<link href="../../assets/styles/screen.css" media="screen" rel="stylesheet" type="text/css">
+<link href="../../assets/styles/print.css" media="print" rel="stylesheet" type="text/css">
+
+
+<link rel="stylesheet" href="pizza.css">
+<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+</head>
+
+<body class="restaurant delicatessen guest layout-menu">
+<!--[if lt IE 7 ]><div class="ie ie6"><![endif]-->
+<!--[if IE 7 ]><div class="ie ie7"><![endif]-->
+<!--[if IE 8 ]><div class="ie ie8"><![endif]-->
+
+<div class="wrapper">
+<div class="wrapper-inner">
+<div class="header">
+  <div class="container">
+    <div class="logo-header"><a href="../../index.html">Marie Catrib's</a></div>
+    <ul class="nav-main hnav">
+      <li class="li-1"><a href="../../about/index.html">About</a></li>
+      <li class="li-2"><a href="../../contact/index.html">Contact</a></li>
+      <li class="li-3"><a class="active" href="../index.html">Restaurant</a></li>
+      <li class="li-4"><a href="../../store/index.html">Store</a></li>
+    </ul>
+  </div>
+</div><!-- .header -->
+
+
+<div class="content">
+  <div class="content-inner">
     <!-- Begin Header -->
     <header>
       <h1>Build Your Pizza</h1>
@@ -280,17 +322,99 @@ TEST
     </div>
     <!-- End Pizza -->
 
-    <!-- Footer -->
-    <footer>
-      <p>Mattie, Katie, &amp; Will &copy; 2016
-      </p>
-    </footer>
-    <!-- Footer -->
-
     <script
         src="https://code.jquery.com/jquery-2.2.2.js"
         integrity="sha256-4/zUCqiq0kqxhZIyp4G0Gk+AOtCJsY1TA00k5ClsZYE="
         crossorigin="anonymous"></script>
-    <script src="js/pizza.js"></script>
-  </body>
+    <script src="pizza.js"></script>
+
+
+  </div>
+</div>
+<div class="footer">
+  <div class="container">
+    <div class="info col-3">
+      <h4>Marie Catrib&#8217;s</h4>
+<div class="mail">
+1001-1003 Lake Drive SE<br>
+Grand Rapids, MI 49503<br>
+East Hills Center (of the Universe)
+</div>
+<div class="contact">
+<div class="phone">P: (616) 454-4020</div>
+<div class="fax">F: (616) 454-4244</div>
+<div class="email"><span id='eeEncEmail_kETry6BcBV'>.(JavaScript must be enabled to view this email address)</span><script type="text/javascript">
+//<![CDATA[
+var l=new Array();
+var output = '';
+l[0]='>';l[1]='a';l[2]='/';l[3]='<';l[4]=' 109';l[5]=' 111';l[6]=' 99';l[7]=' 46';l[8]=' 115';l[9]=' 98';l[10]=' 105';l[11]=' 114';l[12]=' 116';l[13]=' 97';l[14]=' 99';l[15]=' 101';l[16]=' 105';l[17]=' 114';l[18]=' 97';l[19]=' 109';l[20]=' 64';l[21]=' 111';l[22]=' 102';l[23]=' 110';l[24]=' 105';l[25]='>';l[26]='\"';l[27]=' 109';l[28]=' 111';l[29]=' 99';l[30]=' 46';l[31]=' 115';l[32]=' 98';l[33]=' 105';l[34]=' 114';l[35]=' 116';l[36]=' 97';l[37]=' 99';l[38]=' 101';l[39]=' 105';l[40]=' 114';l[41]=' 97';l[42]=' 109';l[43]=' 64';l[44]=' 111';l[45]=' 102';l[46]=' 110';l[47]=' 105';l[48]=':';l[49]='o';l[50]='t';l[51]='l';l[52]='i';l[53]='a';l[54]='m';l[55]='\"';l[56]='=';l[57]='f';l[58]='e';l[59]='r';l[60]='h';l[61]='a ';l[62]='<';
+for (var i = l.length-1; i >= 0; i=i-1){
+if (l[i].substring(0, 1) == ' ') output += "&#"+unescape(l[i].substring(1))+";";
+else output += unescape(l[i]);
+}
+document.getElementById('eeEncEmail_kETry6BcBV').innerHTML = output;
+//]]>
+</script></div>
+</div>
+    </div>
+    <div class="hours col-3">
+      <h4>hours</h4>
+<div>M-F 7am - 11am (Breakfast)</div>
+<div>M-F 11am - 8pm (Lunch/Dinner)</div>
+<div>Sat 8am - 12pm (Breakfast)</div>
+<div>Sat 12pm - 4pm (Lunch)</div>
+    </div>
+    <div class="footer-links col-6 last">
+      <div class="col-2">
+        <h4>About</h4>
+        <ul class="vlist">
+          <li><a href="../../about/index.html">Our Story</a></li>
+          <li><a href="../../store/shipping-and-returns/index.html">Shipping Info</a></li>
+          <li><a href="../../store/privacy/index.html">Privacy Policy</a></li>
+          <li><a href="../../charitable-giving-form/index.html">Donations</a></li>
+        </ul>
+      </div>
+      <div class="col-2">
+        <h4>Restaurant</h4>
+        <ul class="vlist">
+          <li><a href="../menu/index.html">View Full Menu</a></li>
+          <li><a href="../catering/index.html">Catering</a></li>
+          <li><a href="index.html">Deli / Take-Out</a></li>
+        </ul>
+      </div>
+      <div class="col-2 last">
+        <h4>Store</h4>
+        <ul class="vlist">
+          <li><a href="../../store/index.html">Shop Now</a></li>
+          <li><a href="../../store/index-category=207.html">Gift Certificates</a></li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="legal">
+      Copyright &copy; 2016 Marie Catrib's
+    </div>
+  </div><!-- .contaier -->
+</div>
+</div><!-- .wrapper-inner -->
+</div><!-- .wrapper -->
+<script type="text/javascript" src="../../tools/min/index-f=assets%7Cscripts%7Cjquery.biglinks.js,assets%7Cscripts%7Cjquery.cookie.js,assets%7Cscripts%7Cjquery.columns.js,assets%7Cscripts%7Cdefault.js.php"></script>
+<!-- google analytics -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var siteId = 'UA-12492598-1';
+
+if (typeof _gat !== 'undefined' && siteId !== 'XXXXXX') {
+  var pageTracker = _gat._getTracker(siteId); // don't modify this line. modify the siteId variable above instead
+  pageTracker._initData(); // added by FM to avoid IE JS error.
+  pageTracker._trackPageview();
+} else if (window.console && console.log) {
+  console.log('could not access google-analytics.com');
+}
+</script>
+<!--[if lte IE 8]></div><![endif]-->
+</body>
 </html>
