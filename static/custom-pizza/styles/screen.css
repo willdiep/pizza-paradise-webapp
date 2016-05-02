@@ -827,9 +827,9 @@ body {
 
 .content {
   background: url("images/bg-paper-top.png") repeat-x 50% 0;
-  padding-top: 64px;
+  padding-top: 40px;
   z-index: 10;
-  margin-top: -64px; }
+  margin-top: -90px; }
 
 .header .container, .header .content-feature .slideshow, .content-feature .header .slideshow {
   position: relative; }
@@ -850,12 +850,18 @@ body {
   bottom: 20px;
   left: 50%; }
 
+/*
 .logo-header a {
-  background: url("images/logo-header.png") no-repeat;
+  background: url("images/logo-header2.png") no-repeat;
   width: 236px;
-  height: 73px;
+  height: 85px;
   position: relative;
   z-index: 100; }
+*/
+.container img {
+	padding-top: 20px;
+}
+
 
 .content, .content-inner {
   zoom: 1; }
@@ -883,13 +889,17 @@ body {
     background-position: -107px -200px; }
   .nav-main li.li-2 a.active {
     background-position: -107px -400px; }
+/*
   .nav-main li.li-3 a {
     background-position: -212px 0px;
     width: 109px; }
+*/
   .nav-main li.li-3 a:hover {
     background-position: -212px -200px; }
+/*
   .nav-main li.li-3 a.active {
     background-position: -212px -400px; }
+*/
   .nav-main li.li-4 a {
     background-position: -321px 0px;
     width: 106px; }
