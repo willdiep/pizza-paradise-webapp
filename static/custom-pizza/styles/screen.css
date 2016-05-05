@@ -110,7 +110,7 @@
   margin-right: 20px; }
 
 .container, .content-feature .slideshow {
-  width: 940px;
+  width: 94%;
   margin: 0 auto; }
 
 .last, .col-12, .text input.col-12, .text textarea.col-12, .select select.col-12 {
@@ -404,9 +404,6 @@ blockquote, q {
 
 .ie6 .group, .ie6 .hnav, .ie6 .hlist, .ie6 .container, .ie6 .content-feature .slideshow, .content-feature .ie6 .slideshow, .ie6 .list-2, .ie6 .section, .ie6 #fc_checkout_container, .ie6 body.checkout #fc_checkout_cart, body.checkout .ie6 #fc_checkout_cart, .ie6 body.receipt #fc_checkout_cart, body.receipt .ie6 #fc_checkout_cart, .ie6 #fc_receipt_container, .ie6 div.menu h2, div.menu .ie6 h2, .ie6 .section-2, .ie6 .hform .text, .hform .ie6 .text, .ie6 .hform .select, .hform .ie6 .select, .ie6 .hnav, .ie6 .hlist, .ie6 .list-2, .ie6 .section, .ie6 #fc_checkout_container, .ie6 body.checkout #fc_checkout_cart, body.checkout .ie6 #fc_checkout_cart, .ie6 body.receipt #fc_checkout_cart, body.receipt .ie6 #fc_checkout_cart, .ie6 #fc_receipt_container, .ie6 div.menu h2, div.menu .ie6 h2, .ie6 .section-2, .ie6 .hform .text, .ie6 .hform .select {
   height: 1%; }
-
-strong {
-  font-weight: bold; }
 
 cite, em, var, dfn {
   font-style: italic; }
