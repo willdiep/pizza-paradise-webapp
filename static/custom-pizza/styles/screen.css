@@ -46,7 +46,7 @@
 
 .section, #fc_checkout_container, body.checkout #fc_checkout_cart, body.receipt #fc_checkout_cart, #fc_receipt_container, div.menu h2 {
   padding-bottom: 14px;
-  background: url("images/slash-div-cream.png") no-repeat 0 100%; }
+  background: url("../images/slash-div-cream.png") no-repeat 0 100%; }
 
 .section-2 {
   border-bottom: 1px dotted #cac2b1; }
@@ -99,7 +99,7 @@
 
 .section, #fc_checkout_container, body.checkout #fc_checkout_cart, body.receipt #fc_checkout_cart, #fc_receipt_container, div.menu h2 {
   padding-bottom: 14px;
-  background: url("images/slash-div-cream.png") no-repeat 0 100%; }
+  background: url("../images/slash-div-cream.png") no-repeat 0 100%; }
 
 .section-2 {
   border-bottom: 1px dotted #cac2b1; }
@@ -322,7 +322,7 @@
 
 .section, #fc_checkout_container, body.checkout #fc_checkout_cart, body.receipt #fc_checkout_cart, #fc_receipt_container, div.menu h2 {
   padding-bottom: 14px;
-  background: url("images/slash-div-cream.png") no-repeat 0 100%; }
+  background: url("../images/slash-div-cream.png") no-repeat 0 100%; }
 
 .section-2 {
   border-bottom: 1px dotted #cac2b1; }
@@ -473,7 +473,7 @@ dt {
   font-weight: bold; }
 
 ul li {
-  background: url("images/bullet-default.png") no-repeat 0 4px;
+  background: url("../images/bullet-default.png") no-repeat 0 4px;
   padding-left: 14px; }
 
 .list-reset, .list-1, .list-1 li, .list-2, .list-2 li, .list-3, .list-3 li {
@@ -557,7 +557,7 @@ button::-moz-focus-inner {
   padding: 0; }
 
 .btn, .btn span {
-  background-image: url("images/buttons/orange-pill.png"); }
+  background-image: url("../images/buttons/orange-pill.png"); }
 
 .btn {
   background-position: 100% 0; }
@@ -608,7 +608,7 @@ button::-moz-focus-inner {
   margin-bottom: 0; }
 
 .framed, .content-main .slideshow {
-  background: url("images/drawn-frame-big.png") no-repeat;
+  background: url("../images/drawn-frame-big.png") no-repeat;
   width: 586px;
   height: 323px;
   padding: 19px; }
@@ -661,7 +661,7 @@ button::-moz-focus-inner {
 
 .section, #fc_checkout_container, body.checkout #fc_checkout_cart, body.receipt #fc_checkout_cart, #fc_receipt_container, div.menu h2 {
   padding-bottom: 14px;
-  background: url("images/slash-div-cream.png") no-repeat 0 100%; }
+  background: url("../images/slash-div-cream.png") no-repeat 0 100%; }
 
 .section-2 {
   border-bottom: 1px dotted #cac2b1; }
@@ -758,13 +758,13 @@ form, label {
   padding-left: 50px; }
 
 .box.failure, .box.error {
-  background-image: url("images/icons/easel/error.png"); }
+  background-image: url("../images/icons/easel/error.png"); }
 
 .box.notice {
-  background-image: url("images/icons/easel/notice.png"); }
+  background-image: url("../images/icons/easel/notice.png"); }
 
 .box.success {
-  background-image: url("images/icons/easel/success.png"); }
+  background-image: url("../images/icons/easel/success.png"); }
 
 .box a, .box a:hover {
   background: none;
@@ -813,7 +813,7 @@ body {
   background: #fcfaea; }
 
 .header, .content-feature {
-  background: url("images/bg-turq.jpg");
+  background: url("../images/bg-turq.jpg");
   padding-bottom: 64px; }
 
 .header, .content, .content-feature {
@@ -823,7 +823,7 @@ body {
   z-index: 8; }
 
 .content {
-  background: url("images/bg-paper-top.png") repeat-x 50% 0;
+  background: url("../images/bg-paper-top.png") repeat-x 50% 0;
   padding-top: 40px;
   z-index: 10;
   margin-top: -90px; }
@@ -832,7 +832,7 @@ body {
   position: relative; }
 
 .footer {
-  background: url("images/bg-footer.jpg") repeat-x;
+  background: url("../images/bg-footer.jpg") repeat-x;
   padding: 100px 0 0 0;
   height: 177px;
   width: 100%;
@@ -849,7 +849,7 @@ body {
 
 /*
 .logo-header a {
-  background: url("images/logo-header2.png") no-repeat;
+  background: url("../images/logo-header2.png") no-repeat;
   width: 236px;
   height: 85px;
   position: relative;
@@ -873,7 +873,7 @@ body {
   top: 0; }
   .nav-main a {
     height: 80px;
-    background: url("images/nav-main.png") no-repeat; }
+    background: url("../images/nav-main.png") no-repeat; }
   .nav-main li.li-1 a {
     width: 107px; }
   .nav-main li.li-1 a:hover {
@@ -911,7 +911,7 @@ body {
   margin-top: -12px; }
 
 .content-header {
-  background: url("images/slash-div-turq.png") repeat-x 0 100%;
+  background: url("../images/slash-div-turq.png") repeat-x 0 100%;
   padding-bottom: 24px; }
   .content-header h1 {
     float: left;
@@ -938,7 +938,7 @@ body {
     font-size: 16px;
     margin: 0; }
     #foxee_cart_container h2 a {
-      background: url("images/buttons/cart.png") no-repeat 100% 0;
+      background: url("../images/buttons/cart.png") no-repeat 100% 0;
       padding: 11px 32px 5px 0;
       min-height: 14px; }
       #foxee_cart_container h2 a:hover {
@@ -965,7 +965,7 @@ body.checkout .content-header .back-link {
   color: #64300a;
   line-height: 1.5em; }
   .product-list li.product {
-    background: url("images/product-list-matte.jpg") no-repeat 0 100%;
+    background: url("../images/product-list-matte.jpg") no-repeat 0 100%;
     height: 250px;
     position: relative;
     margin-bottom: 40px; }
@@ -1012,13 +1012,13 @@ form.btn {
   margin: 0; }
 
 .badge.gf {
-  background-image: url("images/product-badges/gf.png"); }
+  background-image: url("../images/product-badges/gf.png"); }
 
 .badge.v {
-  background-image: url("images/product-badges/v.png"); }
+  background-image: url("../images/product-badges/v.png"); }
 
 .badge.gf.v {
-  background-image: url("images/product-badges/v-and-gf.png"); }
+  background-image: url("../images/product-badges/v-and-gf.png"); }
 
 .product-list .badge {
   top: -18px;
@@ -1046,7 +1046,7 @@ form.btn {
   display: inline; }
 .product-detail .product-img {
   position: relative;
-  background: url("images/drawn-frame.png") no-repeat;
+  background: url("../images/drawn-frame.png") no-repeat;
   height: 361px;
   width: 463px;
   margin-left: -940px; }
@@ -1067,7 +1067,7 @@ form.btn {
   float: left; }
 
 .product-detail .product-main .title {
-  background: url("images/dotted-dark.png") repeat-x 0 100%;
+  background: url("../images/dotted-dark.png") repeat-x 0 100%;
   padding-bottom: 10px;
   margin-bottom: 7px; }
 .product-detail .product-main .cart {
@@ -1141,7 +1141,7 @@ form.btn {
         padding: 0 0 16px 16px; }
       .content-feature .slideshow .controls a {
         display: block;
-        background: url("images/feature-controls-dots.png") no-repeat;
+        background: url("../images/feature-controls-dots.png") no-repeat;
         width: 14px;
         height: 14px;
         margin-bottom: 4px; }
