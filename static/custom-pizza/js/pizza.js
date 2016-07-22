@@ -7,6 +7,7 @@
      var greenPrice = 1;
      var saucePrice = 3;
      var crustPrice = 5;
+     
      var order = {
         hasPepperoni:false,
         hasBellPeppers:false,
@@ -14,6 +15,7 @@
         hasGlutenFree:false,
         hasCreamyGarlicWhite:false
      };
+     
      $("#btnOrder").click(function(){
         console.log("Send " + JSON.stringify(order) + " to the server");
         var success = function(data){
