@@ -1,3 +1,11 @@
+What your project is about
+Installation instructions
+Project status
+Instructions to post to the issues
+Talent needs
+(Optional) Contact info of the project leader
+
+
 Pizza Paradise is a web application that allows you to build a customized pizza with calculated total
 
 Inspired by Pizza Hut's pizza builder web app (www.order.pizzahut.com/site/pizza/builder)
