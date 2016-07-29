@@ -24,7 +24,7 @@
           
           $.ajax({
             type: "POST",
-            url: "/pizzaParadise",
+            url: "/animationPizza",
             data: JSON.stringify(order),
             success: success,
             dataType: "json",

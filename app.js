@@ -1,7 +1,7 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var contactHandler = require('./handlers/contact_form')
-var pizzaParadise = require('./handlers/pizza_paradise')
+var pizzaParadise = require('./handlers/animation-pizza')
 var dropdownPizzaParadise = require('./handlers/dropdown_pizza_paradise')
 var helloHandler = require('./handlers/hello')
 var contactListHandler = require('./handlers/contactlist');
@@ -44,14 +44,15 @@ app.get('/contacts', function(req, res){
   contactListHandler(req.body, context);
 });
 
-
-app.post('/pizzaParadise', function(req, res){
+// animation-pizza - inputs that post to terminal and Dynamo
+app.post('/animationPizza', function(req, res){
   console.log("Inside Dynamo")
   console.log(req.body);
   context = new ContextProxy(req, res);
   pizzaParadise(req.body, context);
 });
 
+// animation-pizza - inputs that post to terminal and Dynamo
 app.post('/dropdownPizzaParadise', function(req, res){
   console.log("Inside Dynamo")
   console.log(req.body);
