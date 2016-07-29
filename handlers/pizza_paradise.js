@@ -5,13 +5,13 @@ module.exports = function(event, context) {
     var newItem = {
         Item:{
           cust_data:{
-              S:"keefe@categorize.us"
+              S:"Customer-Will"
           },
           firstName:{
-              S:"keefe"
+              S:"Will"
           },
           lastName:{
-              S:"roedersheimer"
+              S:"Diep"
           },
           userMessage:{
               S:"Test Message"
