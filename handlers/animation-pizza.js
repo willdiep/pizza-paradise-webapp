@@ -5,7 +5,7 @@ module.exports = function(event, context) {
     var newItem = {
         Item:{
           cust_data:{
-              S:"Customer-Will"
+              S:"Cust-Will"
           },
           firstName:{
               S:"Will"
@@ -91,7 +91,7 @@ module.exports = function(event, context) {
         },
         TableName:'pizza_paradise'
     };
-    //TODO @katieroedersheimer read about iterating through object properties
+
     if(event.firstName!==undefined && event.firstName !=='') newItem.Item.firstName.S = event.firstName;
     if(event.lastName!==undefined && event.lastName !=='') newItem.Item.lastName.S = event.lastName;
     if(event.email!==undefined && event.email!=='') newItem.Item.cust_data.S = event.email;
@@ -120,6 +120,7 @@ module.exports = function(event, context) {
     if(event.hasGarlic!==undefined && event.hasGarlic !=='') newItem.Item.hasGarlic.BOOL = event.hasGarlic;
     if(event.hasJalapenos!==undefined && event.hasJalapenos !=='') newItem.Item.hasJalapenos.BOOL = event.hasJalapenos;
     if(event.hasArtichokes!==undefined && event.hasArtichokes !=='') newItem.Item.hasArtichokes.BOOL = event.hasArtichokes;
+    
     var dynamo = new AWS.DynamoDB({apiVersion: '2012-08-10'});
     dynamo.putItem(newItem, function(err, data){
        if(err){
