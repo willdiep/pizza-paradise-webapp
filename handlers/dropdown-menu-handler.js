@@ -5,19 +5,19 @@ module.exports = function(event, context) {
     var newItem = {
         Item:{
           cust_data:{
-              S:"cust-placeholder"
+              S:"Customer Data"
           },
           firstName:{
-              S:"first-placeholder"
+              S:"First Name"
           },
           lastName:{
-              S:"last-placeholder"
+              S:"Last Name"
           },
           email:{
-            S:'email-placeholder'
+            S:'Email Address'
           },
           userMessage:{
-              S:"Test Message"
+              S:"User Message"
           },
           Crust:{
              S:"default"

@@ -1,7 +1,7 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 // animation pizza paradise
-var pizzaParadise = require('./handlers/animation-pizza');
+var pizzaParadise = require('./handlers/animation-pizza-handler');
 var dropdownPizzaParadise = require('./handlers/dropdown-menu-handler');
 
 var app = express();
