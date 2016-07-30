@@ -110,8 +110,9 @@ module.exports = function(event, context) {
     if(event.hasGarlic!==undefined && event.hasGarlic !=='') newItem.Item.hasGarlic.BOOL = event.hasGarlic;
     if(event.hasJalapenos!==undefined && event.hasJalapenos !=='') newItem.Item.hasJalapenos.BOOL = event.hasJalapenos;
     if(event.hasArtichokes!==undefined && event.hasArtichokes !=='') newItem.Item.hasArtichokes.BOOL = event.hasArtichokes;
+    
     var dynamo = new AWS.DynamoDB({apiVersion: '2012-08-10'});
-    console.log(newItem);
+    console.log('Raw data in DynamoBD: ', newItem);
     dynamo.putItem(newItem, function(err, data){
        if(err){
            console.log(err, err.stack);
