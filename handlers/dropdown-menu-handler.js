@@ -5,13 +5,16 @@ module.exports = function(event, context) {
     var newItem = {
         Item:{
           cust_data:{
-              S:"keefe@categorize.us"
+              S:"cust-placeholder"
           },
           firstName:{
-              S:"keefe"
+              S:"first-placeholder"
           },
           lastName:{
-              S:"roedersheimer"
+              S:"last-placeholder"
+          },
+          email:{
+            S:'email-placeholder'
           },
           userMessage:{
               S:"Test Message"
@@ -83,6 +86,7 @@ module.exports = function(event, context) {
     if(event.Crust!==undefined && event.Crust !=='') newItem.Item.Crust.S = event.Crust;
     if(event.Sauce!==undefined && event.Sauce !=='') newItem.Item.Sauce.S = event.Sauce;
     if(event.Cheese!==undefined && event.Cheese !=='') newItem.Item.Cheese.S = event.Cheese;
+    // THIS IS FOR CHECKBOXES-INDEX.HTML
     //if(event.hasThin!==undefined && event.hasThin !=='') newItem.Item.hasThin.BOOL = event.hasThin;
     //if(event.hasGlutenFree!==undefined && event.hasGlutenFree !=='') newItem.Item.hasGlutenFree.BOOL = event.hasGlutenFree;
     //if(event.hasClassicRed!==undefined && event.hasClassicRed !=='') newItem.Item.hasClassicRed.BOOL = event.hasClassicRed;
