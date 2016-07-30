@@ -198,11 +198,11 @@ td {
   margin-right: 20px;
 }
 
-.container,
-.content-feature {
-  width: 94%;
-  margin: 0 auto;
+. {
+  margin-left: auto;
+  margin-right: auto;
 }
+
 
 .last,
 .col-12,
@@ -366,7 +366,13 @@ body {
 
 .content-inner {
   background: #fcfaea;
+  margin-left: auto;
 }
+
+h1, h2, p, ul, input, select#crust, option, textarea { 
+  text-align: center;
+}
+
 
 
 /*-----------------------------------------------------------------------
