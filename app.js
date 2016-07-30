@@ -25,7 +25,7 @@ ContextProxy.prototype.done = function(err, data){
 
 // animation-pizza - inputs that post to terminal and Dynamo
 app.post('/animationPizza', function(req, res){
-  console.log("Inside Dynamo")
+  console.log("Inside DynamoDB: ")
   console.log(req.body);
   context = new ContextProxy(req, res);
   pizzaParadise(req.body, context);
@@ -33,7 +33,7 @@ app.post('/animationPizza', function(req, res){
 
 // animation-pizza - inputs that post to terminal and Dynamo
 app.post('/dropdownPizzaParadise', function(req, res){
-  console.log("Inside Dynamo")
+  console.log("Inside DynamoDB: ")
   console.log(req.body);
   context = new ContextProxy(req, res);
   dropdownPizzaParadise(req.body, context);

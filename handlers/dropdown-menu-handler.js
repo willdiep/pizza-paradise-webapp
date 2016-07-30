@@ -112,7 +112,7 @@ module.exports = function(event, context) {
     if(event.hasArtichokes!==undefined && event.hasArtichokes !=='') newItem.Item.hasArtichokes.BOOL = event.hasArtichokes;
     
     var dynamo = new AWS.DynamoDB({apiVersion: '2012-08-10'});
-    console.log('Raw data in DynamoBD: ', newItem);
+    console.log('Raw data inside DynamoBD: ', newItem);
     dynamo.putItem(newItem, function(err, data){
        if(err){
            console.log(err, err.stack);
