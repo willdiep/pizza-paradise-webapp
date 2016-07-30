@@ -92,7 +92,7 @@ module.exports = function(event, context) {
         TableName:'pizza_paradise'
     };
 
-
+    // Create a function to keep this DRY
     if(event.firstName!==undefined && event.firstName !=='') newItem.Item.firstName.S = event.firstName;
     if(event.lastName!==undefined && event.lastName !=='') newItem.Item.lastName.S = event.lastName;
     if(event.email!==undefined && event.email!=='') newItem.Item.cust_data.S = event.email;

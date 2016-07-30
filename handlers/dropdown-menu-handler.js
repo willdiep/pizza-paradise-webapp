@@ -79,6 +79,8 @@ module.exports = function(event, context) {
         },
         TableName:'pizza_paradise'
     };
+
+    // Create a function to keep this DRY
     if(event.firstName!==undefined && event.firstName !=='') newItem.Item.firstName.S = event.firstName;
     if(event.lastName!==undefined && event.lastName !=='') newItem.Item.lastName.S = event.lastName;
     if(event.email!==undefined && event.email!=='') newItem.Item.cust_data.S = event.email;
@@ -86,7 +88,7 @@ module.exports = function(event, context) {
     if(event.Crust!==undefined && event.Crust !=='') newItem.Item.Crust.S = event.Crust;
     if(event.Sauce!==undefined && event.Sauce !=='') newItem.Item.Sauce.S = event.Sauce;
     if(event.Cheese!==undefined && event.Cheese !=='') newItem.Item.Cheese.S = event.Cheese;
-    // THIS IS FOR CHECKBOXES-INDEX.HTML
+    // THESE ARE EXTRA TOPICS FOR CHECKBOXES-INDEX.HTML - NOT IN USE
     //if(event.hasThin!==undefined && event.hasThin !=='') newItem.Item.hasThin.BOOL = event.hasThin;
     //if(event.hasGlutenFree!==undefined && event.hasGlutenFree !=='') newItem.Item.hasGlutenFree.BOOL = event.hasGlutenFree;
     //if(event.hasClassicRed!==undefined && event.hasClassicRed !=='') newItem.Item.hasClassicRed.BOOL = event.hasClassicRed;
