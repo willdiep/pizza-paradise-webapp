@@ -40,5 +40,5 @@ app.post('/dropdownPizzaParadise', function(req, res){
 });
 
 app.listen(3030, function () {
-  console.log('Example app listening on port 3030!');
+  console.log('Pizza Paradise listening on port 3030!');
 });
