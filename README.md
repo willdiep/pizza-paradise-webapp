@@ -53,7 +53,7 @@ Add additional notes about how to deploy this on a live system
 
 ## Authors
 
-Excellent team with [Keefe](https://github.com/kroeders), [Katie](https://github.com/KatieRoedersheimer) ,and [Mattie](https://github.com/socialmediamaven)
+Excellent team with [Keefe](https://github.com/kroeders), [Katie](https://github.com/KatieRoedersheimer), and [Mattie](https://github.com/socialmediamaven)
 
 ## License
 
