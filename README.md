@@ -1,5 +1,5 @@
 # Project Title
-Pizza Paradise is a 2D web application that allows you to build a customized pizza with calculated total
+Pizza Paradise is a interactive2D web application that allows you to build a customized pizza with calculated total
 
 Inspired by [Domino's 3D pizza builder web app](https://www.eater.com/2014/4/25/6235513/dominos-new-ipad-app-features-a-3d-pizza-builder)
 
